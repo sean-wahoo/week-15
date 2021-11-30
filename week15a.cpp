@@ -51,9 +51,9 @@ int main()
 {
     char c;
     int i;
-    cout << "input a character\n->";
+    cout << "Input a character:\n-> ";
     cin >> c;
-    cout << "input a number\n->";
+    cout << "Input a number:\n-> ";
     cin >> i;
     cout << character(c, i) << endl;
 }
