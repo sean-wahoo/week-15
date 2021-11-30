@@ -11,7 +11,9 @@ int half(int i)
 {
     return round((static_cast<float>(i) / 2));
 }
-template <typename T>
+template <typename T> // after using javascript for so long this
+                      // almost feels like it negates the fact that
+                      // c++ is strongly typed
 T half(T i)
 {
     return i / 2;
