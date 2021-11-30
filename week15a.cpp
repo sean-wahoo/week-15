@@ -45,6 +45,8 @@ char character(char start, int offset)
     {
         cout << "Given character is not valid!" << endl;
     }
+    // this throws a warning because there is technically nothing being returned in all cases but it never
+    // actually gets here because of the exceptions.
 }
 
 int main()
